@@ -1,0 +1,137 @@
+:root{
+    --colorNormal: #FFFFCC;
+    --colorImportante: #EC7063;
+    --colorBackground: #666;
+    --colorGrisOscuro: #111;
+  }
+  body{
+    background-color: var(--colorBackground);
+    margin: 1em 0 5em 0;
+  }
+  
+  .colorNormal{
+    background-color: var(--colorNormal);
+  }
+  
+  .colorImportante{
+    background-color: var(--colorImportante);
+  }
+  
+  .titulo{
+    padding: 0.25em;
+    border-radius:5px;
+    margin-right: 0.5em;
+    width: 20%;
+    border:0;
+  }
+  .descripcion{
+    padding: 0.25em;
+    border-radius:5px;
+    margin-right: 0.5em;
+    width: 30%;
+    border:0;
+  }
+  .casilla{
+    vertical-align: bottom;
+    margin-bottom:1em;
+  }
+  .etiqueta{
+    color: #FFF;
+  }
+  .boton{
+    width: 20%;
+    margin-left: 3em;
+    padding: 0.25em;
+    border-radius:5px;
+    background-color: var(--colorGrisOscuro);
+    color:#FFF;
+    border:0;
+  }
+  h2 {
+    font-weight: 800;
+    font-size: 1.2em;
+  }
+  p{
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .altura{
+    height: 250px;
+    overflow:hidden;
+  }
+  .texto{
+    font-family: 'Reenie Beanie', cursive; 
+    font-size: 1.5em;
+  }
+  .botonCerrar{
+    font-size: x-small;
+  }
+  ul {
+    list-style:none;
+    margin:0;
+    padding: 0;
+  }
+  ul li:nth-child(1) {
+    transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+  }
+  ul li:nth-child(even) {
+    transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    -o-transform:rotate(4deg);
+  }
+  ul li:nth-child(3n) {
+    transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+  }
+  ul li:nth-child(5n) {
+    transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+  }
+  ul li:nth-child(7n) {
+    transform:rotate(-2deg);
+    -webkit-transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+    -o-transform:rotate(-2deg);
+  }
+  @media(max-width:768px) {
+    .titulo{
+      padding: 0.25em;
+      border-radius:5px;
+      width: 100%;
+      border:0;
+    }
+    .descripcion{
+      padding: 0.25em;
+      border-radius:5px;
+      width: 100%;
+      border:0;
+    }
+    .casilla{
+      vertical-align: bottom;
+      margin-bottom:1em;
+    }
+    .etiqueta{
+      color: #FFF;
+    }
+    .boton{
+      width: 100%;
+      padding: 0.25em 0;
+      border-radius:5px;
+      background-color: var(--colorGrisOscuro);
+      color:#FFF;
+      border:0;
+      margin:0;
+    }
+    .altura{
+    height: 300px;
+    overflow:hidden;
+    }
+  } 
